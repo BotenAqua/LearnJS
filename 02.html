@@ -1,0 +1,26 @@
+<script>
+
+function niceMan(name, origin) {
+  var result = "";
+  result += "Let's welcome " + name + " from " + origin + "!";
+  return result;
+}
+
+console.log(niceMan("Aqua", "Kingdom of the lake"));
+
+var myArray = ["Potato", 7, ["Wait what is this?!", "Array inside the array?"]];
+var secondItem = myArray[1];
+console.log(secondItem);
+
+// array append
+myArray.push("Oh no!");
+console.log(myArray);
+
+//array pop
+var exaled = myArray.pop();
+console.log(exaled, myArray);
+
+//myArray.shift() == pop(0)
+//myArray.unshift() appends on the start
+
+</script>
